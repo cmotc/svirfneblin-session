@@ -1,0 +1,8 @@
+[Desktop Entry]
+Encoding=UTF-8
+Name=svirfneblin
+Comment=Gnome3-like panel for AwesomeWM
+NoDisplay=false
+TryExec=svirfneblin-panel
+Exec=svirfneblin-panel
+Type=Application

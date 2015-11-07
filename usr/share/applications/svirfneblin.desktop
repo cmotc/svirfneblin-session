@@ -1,0 +1,8 @@
+[Desktop Entry]
+Encoding=UTF-8
+Name=awesome
+Comment=Highly configurable framework window manager
+NoDisplay=false
+TryExec=svirfneblin-panel
+Exec=svirfneblin-panel
+Type=Application
