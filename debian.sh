@@ -48,15 +48,16 @@ Priority: optional
 Maintainer: dyngar-m <dyngar-m@dyngar.local>
 Build-Depends: debhelper (>= 9)
 Standards-Version: 3.9.5
-Homepage: <insert the upstream URL, if relevant>
-#Vcs-Git: git://anonscm.debian.org/collab-maint/debian-awesome-gnome.git
-#Vcs-Browser: http://anonscm.debian.org/?p=collab-maint/debian-awesome-gnome.git;a=summary
+Homepage: https://www.github.com/cmotc/svirfneblin-session
+#Vcs-Git: https://www.github.com/cmotc/svirfneblin-session
+#Vcs-Browser: https://www.github.com/cmotc/svirfneblin-session
 
 Package: $DEBFOLDER
 Architecture: all
-Depends: lightdm (>= 3.0), lighdm-gtk-greeter, awesome (>= 3.4), svirfneblin-panel, \${misc:Depends}
-Description: <insert up to 60 chars description>
- <insert long description, indented with spaces>
+Depends: lightdm (>= 3.0), lighdm-gtk-greeter, awesome (>= 3.4), svirfneblin-panel, svirfneblin-battery-widget, svirfneblin-network-manager, \${misc:Depends}
+Description: A custom AwesomeWM session designed to give much of the convenience
+ of a heavier desktop environment like Gnome3 in a way which gives the user
+ deeper control.
 " > debian/control
 
 #echo "gsettings set org.gnome.desktop.session session-name awesome-gnome
