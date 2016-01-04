@@ -1,7 +1,7 @@
 [Desktop Entry]
 Encoding=UTF-8
-Name=awesome
-Comment=Gnome3-like panel for AwesomeWM
+Name=Svirfneblin
+Comment=Extensive hacking-oriented panel for Awesome with modern features
 NoDisplay=false
 TryExec=svirfneblin-panel
 Exec=svirfneblin-panel
