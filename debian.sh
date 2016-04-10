@@ -54,7 +54,7 @@ Homepage: https://www.github.com/cmotc/svirfneblin-session
 
 Package: $DEBFOLDER
 Architecture: all
-Depends: lightdm (>= 3.0), lighdm-gtk-greeter, awesome (>= 3.4), svirfneblin-panel, svirfneblin-battery-widget, svirfneblin-network-manager, svirfneblin-goblin, svirfneblin-conky-hud \${misc:Depends}
+Depends: lightdm , lighdm-gtk-greeter, awesome (>= 3.4), svirfneblin-panel, svirfneblin-battery-widget, svirfneblin-network-manager, svirfneblin-goblin, svirfneblin-conky-hud \${misc:Depends}
 Description: A custom AwesomeWM session designed to give much of the convenience
  of a heavier desktop environment like Gnome3 in a way which gives the user
  deeper control.
