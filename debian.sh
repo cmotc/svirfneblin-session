@@ -16,15 +16,11 @@ cd $TOME
 
 git pull origin master
 
-DEBFOLDERNAME="../$DEBFOLDER-$DEBVERSION"
+DEBFOLDERNAME="$TOME/../$DEBFOLDER-$DEBVERSION"
 DEBPACKAGENAME=$DEBFOLDER\_$DEBVERSION
 
-rm -rf $DEBFOLDERNAME
-# Create your scripts source dir
-mkdir $DEBFOLDERNAME
-
 # Copy your script to the source dir
-cp -R $SOURCEBINPATH/ $DEBFOLDERNAME/
+cp $TOME $DEBFOLDERNAME/ -R
 cd $DEBFOLDERNAME
 
 pwd
